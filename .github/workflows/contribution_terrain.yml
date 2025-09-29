@@ -25,6 +25,6 @@ jobs:
           mkdir -p images
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add output_directory
+          git add images
           git commit -m "update contribution terrain" || echo "No changes"
           git push
