@@ -1,7 +1,7 @@
 ## Hi there 👋
 
 
-![Contribution Terrain](output_directory/contribution-terrain.svg)
+![Contribution Terrain](images/terrain-PixelSaver.svg)
 <!--
 **PixelSaver/PixelSaver** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
