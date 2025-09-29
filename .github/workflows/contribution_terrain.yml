@@ -1,0 +1,29 @@
+name: Generate Contribution Terrain
+
+on:
+  schedule:
+    - cron: "0 0 * * *" 
+  workflow_dispatch: # allow manual run from Actions tab
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Generate Contribution Terrain
+        uses: eshahhh/contribution-terrain@v1
+        with:
+          username: ${{ github.repository_owner }}
+          style: terrain # or graph
+          output_dir: output_directory # optional, defaults to root
+          TOKEN_GITHUB: ${{ secrets.TOKEN_GITHUB }}
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add output_directory
+          git commit -m "update contribution terrain" || echo "No changes"
+          git push
