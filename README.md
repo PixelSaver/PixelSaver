@@ -3,7 +3,6 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=pixelsaver&label=Profile%20views&color=0e75b6&style=flat" alt="pixelsaver" /> </p>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=pixelsaver" alt="pixelsaver" /></a> </p>
 
 - 🔭 I’m currently working on **Hackclub Siege Projects**
 
@@ -11,6 +10,7 @@
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
+  Check out my <a href="https://pixelsaver.itch.io/">itch</a>
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
