@@ -1,5 +1,6 @@
 ## Hi there 👋
 
+[![Pixel's GitHub stats](https://github-readme-stats.vercel.app/api?username=PixelSaver)](https://github.com/anuraghazra/github-readme-stats)
 
 ![Contribution Terrain](images/terrain-PixelSaver.svg)
 <!--
